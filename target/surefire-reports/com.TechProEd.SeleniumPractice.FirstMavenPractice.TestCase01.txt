@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.TechProEd.SeleniumPractice.FirstMavenPractice.TestCase01
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.774 sec
