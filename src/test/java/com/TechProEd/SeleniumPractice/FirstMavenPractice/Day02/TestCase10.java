@@ -25,13 +25,12 @@ public class TestCase10 {
     public void checkBox1() throws InterruptedException {
 
         WebElement checkBox1 = driver.findElement(By.xpath("(//input[@type='checkbox'])[1]"));
-        //Thread.sleep(5000);
+        
         if(!checkBox1.isSelected()){
 
             checkBox1.click();
         }
-        //Assert.assertTrue(checkBox1.isSelected());
-
+        
     }
 
 }
