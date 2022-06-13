@@ -2,7 +2,10 @@ package com.TechProEd.SeleniumPractice.FirstMavenPractice.Day02;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestCase10 {
@@ -18,4 +21,16 @@ public class TestCase10 {
         driver.manage().window().maximize();
 
     }
+    @Test
+    public void checkBox1() throws InterruptedException {
+
+        WebElement checkBox1 = driver.findElement(By.xpath("(//input[@type='checkbox'])[1]"));
+        
+        if(!checkBox1.isSelected()){
+
+            checkBox1.click();
+        }
+        
+    }
+
 }
